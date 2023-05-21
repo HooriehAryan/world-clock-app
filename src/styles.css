@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/079/071/original/World_Time_Zones_Map-2.png?1682610795);
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  padding: 0px;
+  margin: 20px;
+}
+h2 {
+  margin: 0 0 5px;
+}
+footer {
+  text-align: center;
+  margin: 0 auto;
+}
+
+select {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: medium;
+}
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  background-color: rgb(215, 226, 230);
+  padding: 35px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  opacity: 80%;
+}
+.center {
+  height: 490px;
+}
+.city {
+  display: flex;
+  margin: 10px 0;
+  justify-content: space-between;
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.2);
+}
+.city:last-child {
+  border: none;
+}
+.time {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.date {
+  padding: 0px;
+  margin: 0px;
+}
+.time small {
+  font-size: 24px;
+  vertical-align: middle;
+  line-height: 48px;
+}

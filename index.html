@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="src/styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
+    <title>World Clock</title>
+  </head>
+  <body>
+    <div class="center">
+      <div class="container">
+        <h1>World Clock</h1>
+        <form>
+          <select name="" id="city-selection">
+            <option value="">Select a city...</option>
+            <option value="current">My Current Location</option>
+            <option value="europe/Paris">Paris</option>
+            <option value="america/New_York">New York</option>
+            <option value="asia/Tbilisi">Tbilisi</option>
+          </select>
+        </form>
+        <div id="cities">
+          <div class="city" id="tokyo">
+            <div>
+              <h2>Tokyo</h2>
+              <div class="date"></div>
+            </div>
+            <div class="time"><small></small></div>
+          </div>
+          <div class="city" id="london">
+            <div>
+              <h2>London</h2>
+              <div class="date"></div>
+            </div>
+            <div class="time"><small></small></div>
+          </div>
+          <div class="city" id="los_angeles">
+            <div>
+              <h2>Los Angeles</h2>
+              <div class="date"></div>
+            </div>
+            <div class="time"><small></small></div>
+          </div>
+          <div class="city" id="sydney">
+            <div>
+              <h2>Sydney</h2>
+              <div class="date"></div>
+            </div>
+            <div class="time"><small></small></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <strong
+        ><a href="https://github.com/HooriehAryan/World-Clock-App"
+          >Open-source</a
+        ><span> by Hoorieh Aryan</span></strong
+      >
+    </footer>
+
+    <script src="src/app.js"></script>
+  </body>
+</html>
